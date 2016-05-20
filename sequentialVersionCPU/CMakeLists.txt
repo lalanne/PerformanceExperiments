@@ -10,6 +10,7 @@ add_executable(performanceExperiment
 
 link_directories(/usr/local/lib)
 
-target_link_libraries(performanceExperiment pthread benchmark) 
+target_link_libraries(performanceExperiment benchmark) 
+target_link_libraries(performanceExperiment pthread) 
 
 
